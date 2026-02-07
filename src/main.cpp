@@ -12,9 +12,9 @@ int main(int argc, char* argv[]) {
     vector<Employee> employees;
     vector<Vehicle> vehicles;
 
-    cout << "\n=======================================================\n";
-    cout << "    VELORA - SOLOMON I1 INSERTION HEURISTIC            \n";
-    cout << "=======================================================\n";
+    // cout << "\n=======================================================\n";
+    // cout << "    VELORA - SOLOMON I1 INSERTION HEURISTIC            \n";
+    // cout << "=======================================================\n";
 
     string input_file = "TC02.json";
     bool debug = false;
