@@ -1,12 +1,12 @@
-CMakeFiles/velora.dir/src/main.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\main.cpp \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
+CMakeFiles/velora.dir/src/json_serialize.cpp.obj: \
+ D:\winter_2k25\kriti_26\opti\code\velora_split\src\json_serialize.cpp \
+ D:/winter_2k25/kriti_26/opti/code/velora_split/include/json_serialize.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iosfwd \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\cpu_defines.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\memoryfwd.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\postypes.h \
@@ -98,16 +98,13 @@ CMakeFiles/velora.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
+ D:/winter_2k25/kriti_26/opti/code/velora_split/include/mini_json.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/io.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
@@ -118,8 +115,21 @@ CMakeFiles/velora.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/mini_json.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/heuristic.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/report.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/output_json.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/file_utils.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iomanip \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\locale \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets_nonio.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ctime c:\mingw\include\time.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\time_members.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\messages_members.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets_nonio.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_conv.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stringfwd.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\allocator.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\codecvt.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\unique_ptr.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\quoted_string.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\sstream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\sstream.tcc

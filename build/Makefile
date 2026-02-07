@@ -152,6 +152,30 @@ src/config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/config.cpp.s
 .PHONY : src/config.cpp.s
 
+src/file_utils.obj: src/file_utils.cpp.obj
+.PHONY : src/file_utils.obj
+
+# target to build an object file
+src/file_utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/file_utils.cpp.obj
+.PHONY : src/file_utils.cpp.obj
+
+src/file_utils.i: src/file_utils.cpp.i
+.PHONY : src/file_utils.i
+
+# target to preprocess a source file
+src/file_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/file_utils.cpp.i
+.PHONY : src/file_utils.cpp.i
+
+src/file_utils.s: src/file_utils.cpp.s
+.PHONY : src/file_utils.s
+
+# target to generate assembly for a file
+src/file_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/file_utils.cpp.s
+.PHONY : src/file_utils.cpp.s
+
 src/geo.obj: src/geo.cpp.obj
 .PHONY : src/geo.obj
 
@@ -224,6 +248,30 @@ src/io.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/io.cpp.s
 .PHONY : src/io.cpp.s
 
+src/json_serialize.obj: src/json_serialize.cpp.obj
+.PHONY : src/json_serialize.obj
+
+# target to build an object file
+src/json_serialize.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/json_serialize.cpp.obj
+.PHONY : src/json_serialize.cpp.obj
+
+src/json_serialize.i: src/json_serialize.cpp.i
+.PHONY : src/json_serialize.i
+
+# target to preprocess a source file
+src/json_serialize.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/json_serialize.cpp.i
+.PHONY : src/json_serialize.cpp.i
+
+src/json_serialize.s: src/json_serialize.cpp.s
+.PHONY : src/json_serialize.s
+
+# target to generate assembly for a file
+src/json_serialize.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/json_serialize.cpp.s
+.PHONY : src/json_serialize.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -247,6 +295,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/output_json.obj: src/output_json.cpp.obj
+.PHONY : src/output_json.obj
+
+# target to build an object file
+src/output_json.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/output_json.cpp.obj
+.PHONY : src/output_json.cpp.obj
+
+src/output_json.i: src/output_json.cpp.i
+.PHONY : src/output_json.i
+
+# target to preprocess a source file
+src/output_json.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/output_json.cpp.i
+.PHONY : src/output_json.cpp.i
+
+src/output_json.s: src/output_json.cpp.s
+.PHONY : src/output_json.s
+
+# target to generate assembly for a file
+src/output_json.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/output_json.cpp.s
+.PHONY : src/output_json.cpp.s
 
 src/report.obj: src/report.cpp.obj
 .PHONY : src/report.obj
@@ -332,6 +404,9 @@ help:
 	@echo ... src/config.obj
 	@echo ... src/config.i
 	@echo ... src/config.s
+	@echo ... src/file_utils.obj
+	@echo ... src/file_utils.i
+	@echo ... src/file_utils.s
 	@echo ... src/geo.obj
 	@echo ... src/geo.i
 	@echo ... src/geo.s
@@ -341,9 +416,15 @@ help:
 	@echo ... src/io.obj
 	@echo ... src/io.i
 	@echo ... src/io.s
+	@echo ... src/json_serialize.obj
+	@echo ... src/json_serialize.i
+	@echo ... src/json_serialize.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/output_json.obj
+	@echo ... src/output_json.i
+	@echo ... src/output_json.s
 	@echo ... src/report.obj
 	@echo ... src/report.i
 	@echo ... src/report.s

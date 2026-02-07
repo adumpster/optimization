@@ -9,10 +9,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/config.cpp" "CMakeFiles/velora.dir/src/config.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/config.cpp.obj.d"
+  "D:/winter_2k25/kriti_26/opti/code/velora_split/src/file_utils.cpp" "CMakeFiles/velora.dir/src/file_utils.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/file_utils.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/geo.cpp" "CMakeFiles/velora.dir/src/geo.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/geo.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/heuristic.cpp" "CMakeFiles/velora.dir/src/heuristic.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/heuristic.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/io.cpp" "CMakeFiles/velora.dir/src/io.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/io.cpp.obj.d"
+  "D:/winter_2k25/kriti_26/opti/code/velora_split/src/json_serialize.cpp" "CMakeFiles/velora.dir/src/json_serialize.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/json_serialize.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/main.cpp" "CMakeFiles/velora.dir/src/main.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/main.cpp.obj.d"
+  "D:/winter_2k25/kriti_26/opti/code/velora_split/src/output_json.cpp" "CMakeFiles/velora.dir/src/output_json.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/output_json.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/report.cpp" "CMakeFiles/velora.dir/src/report.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/report.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/stubs.cpp" "CMakeFiles/velora.dir/src/stubs.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/stubs.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/time_utils.cpp" "CMakeFiles/velora.dir/src/time_utils.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/time_utils.cpp.obj.d"

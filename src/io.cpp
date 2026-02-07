@@ -11,13 +11,13 @@ using namespace std;
 using Json = mini_json::Value;
 
 
-VehicleCat parse_vehicle_category(string cat) {
+ VehicleCat parse_vehicle_category(string cat) {
     if (cat == "premium") return PREMIUM;
     if (cat == "normal") return NORMAL;
     return ANY_CAT;
 }
 
-SharingPref parse_sharing_pref(string pref) {
+ SharingPref parse_sharing_pref(string pref) {
     if (pref == "single") return SINGLE;
     if (pref == "double") return DOUBLE;
     if (pref == "triple") return TRIPLE;
@@ -149,6 +149,73 @@ bool load_from_json(const string& filename, vector<Employee>& emps, vector<Vehic
         return false;
     }
 }
+
+bool load_from_json_keep_root(
+    const std::string& filename,
+    std::vector<Employee>& emps,
+    std::vector<Vehicle>& vehs,
+    mini_json::Value& out_root
+) {
+    std::ifstream in(filename);
+    if (!in.is_open()) return false;
+
+    std::stringstream buffer;
+    buffer << in.rdbuf();
+    std::string text = buffer.str();
+
+    out_root = mini_json::parse(text);   // <-- keep full input JSON
+
+    // now reuse your existing extraction logic, but reading from out_root
+    const auto& data = out_root;
+
+    emps.clear();
+    vehs.clear();
+
+    const auto& j_emps = data["employees"];
+    if (!j_emps.is_array()) return false;
+
+    for (const auto& je : j_emps.arr) {
+        Employee e;
+        e.id = je["id"].as_string();
+        e.priority = je["priority"].as_int(0);
+        e.pickup.lat = je["pickup"]["lat"].as_number();
+        e.pickup.lng = je["pickup"]["lng"].as_number();
+        e.drop.lat = je["drop"]["lat"].as_number();
+        e.drop.lng = je["drop"]["lng"].as_number();
+        e.ready_time = parse_time(je["ready_time"].as_string());
+        e.due_time   = parse_time(je["due_time"].as_string());
+        e.veh_pref   = parse_vehicle_category(je["vehicle_pref"].as_string());
+        e.share_pref = parse_sharing_pref(je["share_pref"].as_string());
+        e.is_routed = false;
+        e.baseline_cost = je["baseline_cost"].as_number(0.0);
+        emps.push_back(e);
+    }
+
+    if (!emps.empty()) OFFICE = emps[0].drop;
+
+    const auto& j_vehs = data["vehicles"];
+    if (!j_vehs.is_array()) return false;
+
+    for (const auto& jv : j_vehs.arr) {
+        Vehicle v;
+        v.id = jv["id"].as_string();
+        v.capacity = jv["capacity"].as_number();
+        v.cost_per_km = jv["cost_per_km"].as_number();
+        v.speed_kmh = jv["speed_kmh"].as_number();
+        v.category = parse_vehicle_category(jv["category"].as_string());
+        v.available_time = parse_time(jv["available_time"].as_string());
+        v.depot_loc.lat = jv["start"]["lat"].as_number();
+        v.depot_loc.lng = jv["start"]["lng"].as_number();
+        v.current_loc = v.depot_loc;
+        v.total_cost = 0.0;
+        v.routes.clear();
+        vehs.push_back(v);
+    }
+
+    return true;
+}
+
+
 
 // Feasibility check by full resimulation after inserting (pickup, drop) after stop index `after_idx`.
 // Returns true and fills `out_stops` with the recomputed schedule if feasible.
