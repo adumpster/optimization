@@ -12,10 +12,7 @@ int main(int argc, char* argv[]) {
     vector<Employee> employees;
     vector<Vehicle> vehicles;
 
-    // cout << "\n=======================================================\n";
-    // cout << "    VELORA - SOLOMON I1 INSERTION HEURISTIC            \n";
-    // cout << "=======================================================\n";
-
+    // Headings removed to maintain pure JSON stdout for Django integration
     string input_file = "TC02.json";
     bool debug = false;
 
@@ -23,7 +20,8 @@ int main(int argc, char* argv[]) {
     if (argc > 2 && string(argv[2]) == "--debug") debug = true;
 
     if (!load_from_json(input_file, employees, vehicles)) {
-        cerr << "Failed to load. Exiting." << endl;
+        // Use cerr for errors so they don't pollute the JSON output
+        cerr << "Failed to load input file. Exiting." << endl;
         return 1;
     }
 
