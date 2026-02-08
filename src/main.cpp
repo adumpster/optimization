@@ -7,9 +7,27 @@
 #include "report.h"
 #include "output_json.h"
 #include "file_utils.h"
+#include "alns.h"
+
 
 
 using namespace std;
+
+
+#include "alns.h"
+
+// Simple local config 
+static ALNSConfig alns_cfg = {
+    2000,   // iterations
+    4,      // min_remove
+    12,     // max_remove
+    400,    // no_improve_stop
+    500.0,  // T0
+    0.999,  // cooling
+    true,   // use_regret2
+    false   // apply_two_opt_after_repair
+};
+
 
 int main(int argc, char** argv) {
     vector<Employee> employees;
@@ -33,6 +51,18 @@ int main(int argc, char** argv) {
     }
 
     solve_solomon_insertion(employees, vehicles, debug);
+
+    solve_solomon_insertion(employees, vehicles, debug);
+
+        // OPTIONAL: guard with a flag if you want
+        bool use_alns = true;
+        if (use_alns) {
+        run_alns(employees, vehicles, alns_cfg, debug);
+        }
+
+
+
+
     display_report(vehicles, employees);
 
     std::string input_raw = read_file_to_string(input_file);

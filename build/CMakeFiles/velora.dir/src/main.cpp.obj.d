@@ -122,4 +122,5 @@ CMakeFiles/velora.dir/src/main.cpp.obj: \
  D:/winter_2k25/kriti_26/opti/code/velora_split/include/heuristic.h \
  D:/winter_2k25/kriti_26/opti/code/velora_split/include/report.h \
  D:/winter_2k25/kriti_26/opti/code/velora_split/include/output_json.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/file_utils.h
+ D:/winter_2k25/kriti_26/opti/code/velora_split/include/file_utils.h \
+ D:/winter_2k25/kriti_26/opti/code/velora_split/include/alns.h

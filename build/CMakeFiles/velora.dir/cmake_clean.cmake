@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/velora.dir/src/alns.cpp.obj"
+  "CMakeFiles/velora.dir/src/alns.cpp.obj.d"
   "CMakeFiles/velora.dir/src/config.cpp.obj"
   "CMakeFiles/velora.dir/src/config.cpp.obj.d"
   "CMakeFiles/velora.dir/src/file_utils.cpp.obj"

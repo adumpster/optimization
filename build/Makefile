@@ -128,6 +128,30 @@ velora/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/build
 .PHONY : velora/fast
 
+src/alns.obj: src/alns.cpp.obj
+.PHONY : src/alns.obj
+
+# target to build an object file
+src/alns.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/alns.cpp.obj
+.PHONY : src/alns.cpp.obj
+
+src/alns.i: src/alns.cpp.i
+.PHONY : src/alns.i
+
+# target to preprocess a source file
+src/alns.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/alns.cpp.i
+.PHONY : src/alns.cpp.i
+
+src/alns.s: src/alns.cpp.s
+.PHONY : src/alns.s
+
+# target to generate assembly for a file
+src/alns.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\velora.dir\build.make CMakeFiles/velora.dir/src/alns.cpp.s
+.PHONY : src/alns.cpp.s
+
 src/config.obj: src/config.cpp.obj
 .PHONY : src/config.obj
 
@@ -401,6 +425,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... velora
+	@echo ... src/alns.obj
+	@echo ... src/alns.i
+	@echo ... src/alns.s
 	@echo ... src/config.obj
 	@echo ... src/config.i
 	@echo ... src/config.s

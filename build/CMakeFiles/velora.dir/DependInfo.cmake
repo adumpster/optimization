@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/winter_2k25/kriti_26/opti/code/velora_split/src/alns.cpp" "CMakeFiles/velora.dir/src/alns.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/alns.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/config.cpp" "CMakeFiles/velora.dir/src/config.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/config.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/file_utils.cpp" "CMakeFiles/velora.dir/src/file_utils.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/file_utils.cpp.obj.d"
   "D:/winter_2k25/kriti_26/opti/code/velora_split/src/geo.cpp" "CMakeFiles/velora.dir/src/geo.cpp.obj" "gcc" "CMakeFiles/velora.dir/src/geo.cpp.obj.d"

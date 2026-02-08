@@ -18,4 +18,5 @@ add_executable(velora
   src/output_json.cpp
   src/file_utils.cpp
   src/json_serialize.cpp
+  src/alns.cpp
 )

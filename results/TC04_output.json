@@ -430,9 +430,9 @@
     "employees_routed": 9,
     "employees_unrouted": 1,
     "total_baseline_cost": 4420.000000,
-    "total_optimized_cost": 451.411378,
-    "net_savings": 3968.588622,
-    "savings_percentage": 89.787073
+    "total_optimized_cost": 338.040530,
+    "net_savings": 4081.959470,
+    "savings_percentage": 92.352024
   },
   "unrouted_employees": [
     {"employee_id": "E10", "reason": "Could not start a new trip: latest_drop violated for E10"}
@@ -444,19 +444,33 @@
       "capacity": 2.000000,
       "speed_kmh": 30.000000,
       "cost_per_km": 10.000000,
-      "total_cost": 58.114674,
+      "total_cost": 88.836188,
       "trips": [
         {
           "trip_number": 1,
-          "load": 2,
+          "load": 5,
           "capacity_limit": 2,
           "start_time": "08:00",
+          "end_time": "09:00",
+          "trip_distance_km": 8.883619,
+          "trip_cost": 88.836188,
+          "route": ["START", "E06", "E05", "E04", "E08", "E07", "END"],
+          "passengers": [            {"employee_id": "E06", "pickup_time": "08:32", "drop_time": "09:00"},
+            {"employee_id": "E05", "pickup_time": "08:35", "drop_time": "09:00"},
+            {"employee_id": "E04", "pickup_time": "08:40", "drop_time": "09:00"},
+            {"employee_id": "E08", "pickup_time": "08:47", "drop_time": "09:00"},
+            {"employee_id": "E07", "pickup_time": "08:50", "drop_time": "09:00"}]
+        },
+        {
+          "trip_number": 2,
+          "load": 0,
+          "capacity_limit": 2,
+          "start_time": "08:27",
           "end_time": "08:27",
-          "trip_distance_km": 5.811467,
-          "trip_cost": 58.114674,
-          "route": ["START", "E01", "E02", "END"],
-          "passengers": [            {"employee_id": "E01", "pickup_time": "08:12", "drop_time": "08:27"},
-            {"employee_id": "E02", "pickup_time": "08:17", "drop_time": "08:27"}]
+          "trip_distance_km": 0.000000,
+          "trip_cost": 0.000000,
+          "route": ["START", "END"],
+          "passengers": []
         }
       ]
     },
@@ -466,19 +480,31 @@
       "capacity": 2.000000,
       "speed_kmh": 28.000000,
       "cost_per_km": 11.000000,
-      "total_cost": 62.592381,
+      "total_cost": 67.356378,
       "trips": [
         {
           "trip_number": 1,
-          "load": 2,
+          "load": 3,
           "capacity_limit": 2,
           "start_time": "08:00",
+          "end_time": "08:33",
+          "trip_distance_km": 6.123307,
+          "trip_cost": 67.356378,
+          "route": ["START", "E01", "E02", "E03", "END"],
+          "passengers": [            {"employee_id": "E01", "pickup_time": "08:12", "drop_time": "08:33"},
+            {"employee_id": "E02", "pickup_time": "08:17", "drop_time": "08:33"},
+            {"employee_id": "E03", "pickup_time": "08:22", "drop_time": "08:33"}]
+        },
+        {
+          "trip_number": 2,
+          "load": 0,
+          "capacity_limit": 2,
+          "start_time": "08:38",
           "end_time": "08:38",
-          "trip_distance_km": 5.690216,
-          "trip_cost": 62.592381,
-          "route": ["START", "E03", "E04", "END"],
-          "passengers": [            {"employee_id": "E03", "pickup_time": "08:22", "drop_time": "08:38"},
-            {"employee_id": "E04", "pickup_time": "08:27", "drop_time": "08:38"}]
+          "trip_distance_km": 0.000000,
+          "trip_cost": 0.000000,
+          "route": ["START", "END"],
+          "passengers": []
         }
       ]
     },
@@ -488,21 +514,29 @@
       "capacity": 4.000000,
       "speed_kmh": 35.000000,
       "cost_per_km": 14.000000,
-      "total_cost": 130.260153,
+      "total_cost": 100.381848,
       "trips": [
         {
           "trip_number": 1,
-          "load": 4,
+          "load": 1,
           "capacity_limit": 4,
           "start_time": "08:00",
+          "end_time": "09:43",
+          "trip_distance_km": 7.170132,
+          "trip_cost": 100.381848,
+          "route": ["START", "E09", "END"],
+          "passengers": [            {"employee_id": "E09", "pickup_time": "09:32", "drop_time": "09:43"}]
+        },
+        {
+          "trip_number": 2,
+          "load": 0,
+          "capacity_limit": 4,
+          "start_time": "08:59",
           "end_time": "08:59",
-          "trip_distance_km": 9.304297,
-          "trip_cost": 130.260153,
-          "route": ["START", "E06", "E05", "E08", "E07", "END"],
-          "passengers": [            {"employee_id": "E06", "pickup_time": "08:32", "drop_time": "08:59"},
-            {"employee_id": "E05", "pickup_time": "08:35", "drop_time": "08:59"},
-            {"employee_id": "E08", "pickup_time": "08:47", "drop_time": "08:59"},
-            {"employee_id": "E07", "pickup_time": "08:50", "drop_time": "08:59"}]
+          "trip_distance_km": 0.000000,
+          "trip_cost": 0.000000,
+          "route": ["START", "END"],
+          "passengers": []
         }
       ]
     },
@@ -512,18 +546,29 @@
       "capacity": 6.000000,
       "speed_kmh": 32.000000,
       "cost_per_km": 18.000000,
-      "total_cost": 200.444171,
+      "total_cost": 81.466116,
       "trips": [
         {
           "trip_number": 1,
-          "load": 1,
+          "load": 0,
           "capacity_limit": 6,
           "start_time": "08:00",
+          "end_time": "08:08",
+          "trip_distance_km": 4.525895,
+          "trip_cost": 81.466116,
+          "route": ["START", "END"],
+          "passengers": []
+        },
+        {
+          "trip_number": 2,
+          "load": 0,
+          "capacity_limit": 6,
+          "start_time": "09:44",
           "end_time": "09:44",
-          "trip_distance_km": 11.135787,
-          "trip_cost": 200.444171,
-          "route": ["START", "E09", "END"],
-          "passengers": [            {"employee_id": "E09", "pickup_time": "09:32", "drop_time": "09:44"}]
+          "trip_distance_km": 0.000000,
+          "trip_cost": 0.000000,
+          "route": ["START", "END"],
+          "passengers": []
         }
       ]
     }
