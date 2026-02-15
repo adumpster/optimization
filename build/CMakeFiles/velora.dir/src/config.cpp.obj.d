@@ -1,6 +1,6 @@
 CMakeFiles/velora.dir/src/config.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\config.cpp \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/config.h \
+ D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\config.cpp \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
@@ -90,7 +90,7 @@ CMakeFiles/velora.dir/src/config.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/types.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \

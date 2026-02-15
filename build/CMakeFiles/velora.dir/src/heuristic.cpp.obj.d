@@ -1,6 +1,6 @@
 CMakeFiles/velora.dir/src/heuristic.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\heuristic.cpp \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/heuristic.h \
+ D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\heuristic.cpp \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/heuristic.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
@@ -96,11 +96,11 @@ CMakeFiles/velora.dir/src/heuristic.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/types.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/geo.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/time_utils.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/config.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/stubs.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/types.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/geo.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/time_utils.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/config.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/stubs.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \

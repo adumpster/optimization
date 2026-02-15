@@ -46,6 +46,7 @@ static bool HOOK_simulate_route(Route& route, const Vehicle& vehicle,
             auto it = emp_by_id.find(s.emp_id);
             if (it == emp_by_id.end()) return false;
             const Employee& e = *it->second;
+            if (e.veh_pref == PREMIUM && vehicle.category != PREMIUM) return false;
             s.loc = e.pickup;
             s.is_pickup = true;
         }
@@ -80,6 +81,15 @@ static bool HOOK_simulate_route(Route& route, const Vehicle& vehicle,
 
     route.current_capacity = (int)route.stops.size() - 2;
     if (route.current_capacity < 0) route.current_capacity = 0;
+
+    // capacity check 
+    int cap_limit = vehicle.capacity;
+    if (route.max_capacity > 0) cap_limit = std::min(cap_limit, route.max_capacity);
+
+    if (route.current_capacity > cap_limit) return false;
+
+   
+
 
     double total_dist = 0.0;
     for (size_t i = 1; i < route.stops.size(); i++) {

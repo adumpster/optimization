@@ -1,6 +1,6 @@
 CMakeFiles/velora.dir/src/json_serialize.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\json_serialize.cpp \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/json_serialize.h \
+ D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\json_serialize.cpp \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/json_serialize.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iosfwd \
@@ -98,7 +98,7 @@ CMakeFiles/velora.dir/src/json_serialize.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_facets.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_ios.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/mini_json.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/mini_json.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\vector \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_construct.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_uninitialized.h \

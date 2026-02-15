@@ -1,6 +1,6 @@
 CMakeFiles/velora.dir/src/io.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\io.cpp \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/io.h \
+ D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\io.cpp \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/io.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -85,7 +85,7 @@ CMakeFiles/velora.dir/src/io.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/types.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
@@ -97,9 +97,9 @@ CMakeFiles/velora.dir/src/io.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdexcept \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/mini_json.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/time_utils.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/config.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/mini_json.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/time_utils.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\fstream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios \

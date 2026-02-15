@@ -1,3 +1,3 @@
-D:/winter_2k25/kriti_26/opti/code/velora_split/build/CMakeFiles/velora.dir
-D:/winter_2k25/kriti_26/opti/code/velora_split/build/CMakeFiles/edit_cache.dir
-D:/winter_2k25/kriti_26/opti/code/velora_split/build/CMakeFiles/rebuild_cache.dir
+D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/build/CMakeFiles/velora.dir
+D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/build/CMakeFiles/edit_cache.dir
+D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/build/CMakeFiles/rebuild_cache.dir

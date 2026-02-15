@@ -1,7 +1,7 @@
 CMakeFiles/velora.dir/src/stubs.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\stubs.cpp \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/stubs.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/types.h \
+ D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\stubs.cpp \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/stubs.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \

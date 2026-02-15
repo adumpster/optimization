@@ -1,7 +1,7 @@
 CMakeFiles/velora.dir/src/geo.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\geo.cpp \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/geo.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/types.h \
+ D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\geo.cpp \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/geo.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -97,5 +97,5 @@ CMakeFiles/velora.dir/src/geo.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\stdexcept \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/config.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h

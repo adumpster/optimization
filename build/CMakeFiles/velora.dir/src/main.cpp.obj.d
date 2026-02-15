@@ -1,5 +1,5 @@
 CMakeFiles/velora.dir/src/main.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\main.cpp \
+ D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\main.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
@@ -106,8 +106,8 @@ CMakeFiles/velora.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_vector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_bvector.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\vector.tcc \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/io.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/types.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/io.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\map \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_tree.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ext\aligned_buffer.h \
@@ -118,9 +118,9 @@ CMakeFiles/velora.dir/src/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\array \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\uses_allocator.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/mini_json.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/heuristic.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/report.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/output_json.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/file_utils.h \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/alns.h
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/mini_json.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/heuristic.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/report.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/output_json.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/file_utils.h \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/alns.h

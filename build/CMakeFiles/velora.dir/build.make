@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\winter_2k25\kriti_26\opti\code\velora_split
+CMAKE_SOURCE_DIR = D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\winter_2k25\kriti_26\opti\code\velora_split\build
+CMAKE_BINARY_DIR = D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/velora.dir/depend.make
@@ -73,183 +73,183 @@ CMakeFiles/velora.dir/codegen:
 
 CMakeFiles/velora.dir/src/main.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/main.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/main.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/main.cpp
+CMakeFiles/velora.dir/src/main.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/main.cpp
 CMakeFiles/velora.dir/src/main.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/velora.dir/src/main.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/main.cpp.obj -MF CMakeFiles\velora.dir\src\main.cpp.obj.d -o CMakeFiles\velora.dir\src\main.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/velora.dir/src/main.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/main.cpp.obj -MF CMakeFiles\velora.dir\src\main.cpp.obj.d -o CMakeFiles\velora.dir\src\main.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\main.cpp
 
 CMakeFiles/velora.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/main.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\main.cpp > CMakeFiles\velora.dir\src\main.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\main.cpp > CMakeFiles\velora.dir\src\main.cpp.i
 
 CMakeFiles/velora.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/main.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\main.cpp -o CMakeFiles\velora.dir\src\main.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\main.cpp -o CMakeFiles\velora.dir\src\main.cpp.s
 
 CMakeFiles/velora.dir/src/config.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/config.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/config.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/config.cpp
+CMakeFiles/velora.dir/src/config.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/config.cpp
 CMakeFiles/velora.dir/src/config.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/velora.dir/src/config.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/config.cpp.obj -MF CMakeFiles\velora.dir\src\config.cpp.obj.d -o CMakeFiles\velora.dir\src\config.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/velora.dir/src/config.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/config.cpp.obj -MF CMakeFiles\velora.dir\src\config.cpp.obj.d -o CMakeFiles\velora.dir\src\config.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\config.cpp
 
 CMakeFiles/velora.dir/src/config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/config.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\config.cpp > CMakeFiles\velora.dir\src\config.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\config.cpp > CMakeFiles\velora.dir\src\config.cpp.i
 
 CMakeFiles/velora.dir/src/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/config.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\config.cpp -o CMakeFiles\velora.dir\src\config.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\config.cpp -o CMakeFiles\velora.dir\src\config.cpp.s
 
 CMakeFiles/velora.dir/src/io.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/io.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/io.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/io.cpp
+CMakeFiles/velora.dir/src/io.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/io.cpp
 CMakeFiles/velora.dir/src/io.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/velora.dir/src/io.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/io.cpp.obj -MF CMakeFiles\velora.dir\src\io.cpp.obj.d -o CMakeFiles\velora.dir\src\io.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/velora.dir/src/io.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/io.cpp.obj -MF CMakeFiles\velora.dir\src\io.cpp.obj.d -o CMakeFiles\velora.dir\src\io.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\io.cpp
 
 CMakeFiles/velora.dir/src/io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/io.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\io.cpp > CMakeFiles\velora.dir\src\io.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\io.cpp > CMakeFiles\velora.dir\src\io.cpp.i
 
 CMakeFiles/velora.dir/src/io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/io.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\io.cpp -o CMakeFiles\velora.dir\src\io.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\io.cpp -o CMakeFiles\velora.dir\src\io.cpp.s
 
 CMakeFiles/velora.dir/src/geo.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/geo.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/geo.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/geo.cpp
+CMakeFiles/velora.dir/src/geo.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/geo.cpp
 CMakeFiles/velora.dir/src/geo.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/velora.dir/src/geo.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/geo.cpp.obj -MF CMakeFiles\velora.dir\src\geo.cpp.obj.d -o CMakeFiles\velora.dir\src\geo.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\geo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/velora.dir/src/geo.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/geo.cpp.obj -MF CMakeFiles\velora.dir\src\geo.cpp.obj.d -o CMakeFiles\velora.dir\src\geo.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\geo.cpp
 
 CMakeFiles/velora.dir/src/geo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/geo.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\geo.cpp > CMakeFiles\velora.dir\src\geo.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\geo.cpp > CMakeFiles\velora.dir\src\geo.cpp.i
 
 CMakeFiles/velora.dir/src/geo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/geo.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\geo.cpp -o CMakeFiles\velora.dir\src\geo.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\geo.cpp -o CMakeFiles\velora.dir\src\geo.cpp.s
 
 CMakeFiles/velora.dir/src/time_utils.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/time_utils.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/time_utils.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/time_utils.cpp
+CMakeFiles/velora.dir/src/time_utils.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/time_utils.cpp
 CMakeFiles/velora.dir/src/time_utils.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/velora.dir/src/time_utils.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/time_utils.cpp.obj -MF CMakeFiles\velora.dir\src\time_utils.cpp.obj.d -o CMakeFiles\velora.dir\src\time_utils.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\time_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/velora.dir/src/time_utils.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/time_utils.cpp.obj -MF CMakeFiles\velora.dir\src\time_utils.cpp.obj.d -o CMakeFiles\velora.dir\src\time_utils.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\time_utils.cpp
 
 CMakeFiles/velora.dir/src/time_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/time_utils.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\time_utils.cpp > CMakeFiles\velora.dir\src\time_utils.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\time_utils.cpp > CMakeFiles\velora.dir\src\time_utils.cpp.i
 
 CMakeFiles/velora.dir/src/time_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/time_utils.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\time_utils.cpp -o CMakeFiles\velora.dir\src\time_utils.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\time_utils.cpp -o CMakeFiles\velora.dir\src\time_utils.cpp.s
 
 CMakeFiles/velora.dir/src/heuristic.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/heuristic.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/heuristic.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/heuristic.cpp
+CMakeFiles/velora.dir/src/heuristic.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/heuristic.cpp
 CMakeFiles/velora.dir/src/heuristic.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/velora.dir/src/heuristic.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/heuristic.cpp.obj -MF CMakeFiles\velora.dir\src\heuristic.cpp.obj.d -o CMakeFiles\velora.dir\src\heuristic.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\heuristic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/velora.dir/src/heuristic.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/heuristic.cpp.obj -MF CMakeFiles\velora.dir\src\heuristic.cpp.obj.d -o CMakeFiles\velora.dir\src\heuristic.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\heuristic.cpp
 
 CMakeFiles/velora.dir/src/heuristic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/heuristic.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\heuristic.cpp > CMakeFiles\velora.dir\src\heuristic.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\heuristic.cpp > CMakeFiles\velora.dir\src\heuristic.cpp.i
 
 CMakeFiles/velora.dir/src/heuristic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/heuristic.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\heuristic.cpp -o CMakeFiles\velora.dir\src\heuristic.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\heuristic.cpp -o CMakeFiles\velora.dir\src\heuristic.cpp.s
 
 CMakeFiles/velora.dir/src/report.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/report.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/report.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/report.cpp
+CMakeFiles/velora.dir/src/report.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/report.cpp
 CMakeFiles/velora.dir/src/report.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/velora.dir/src/report.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/report.cpp.obj -MF CMakeFiles\velora.dir\src\report.cpp.obj.d -o CMakeFiles\velora.dir\src\report.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\report.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/velora.dir/src/report.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/report.cpp.obj -MF CMakeFiles\velora.dir\src\report.cpp.obj.d -o CMakeFiles\velora.dir\src\report.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\report.cpp
 
 CMakeFiles/velora.dir/src/report.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/report.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\report.cpp > CMakeFiles\velora.dir\src\report.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\report.cpp > CMakeFiles\velora.dir\src\report.cpp.i
 
 CMakeFiles/velora.dir/src/report.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/report.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\report.cpp -o CMakeFiles\velora.dir\src\report.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\report.cpp -o CMakeFiles\velora.dir\src\report.cpp.s
 
 CMakeFiles/velora.dir/src/stubs.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/stubs.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/stubs.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/stubs.cpp
+CMakeFiles/velora.dir/src/stubs.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/stubs.cpp
 CMakeFiles/velora.dir/src/stubs.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/velora.dir/src/stubs.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/stubs.cpp.obj -MF CMakeFiles\velora.dir\src\stubs.cpp.obj.d -o CMakeFiles\velora.dir\src\stubs.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\stubs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/velora.dir/src/stubs.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/stubs.cpp.obj -MF CMakeFiles\velora.dir\src\stubs.cpp.obj.d -o CMakeFiles\velora.dir\src\stubs.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\stubs.cpp
 
 CMakeFiles/velora.dir/src/stubs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/stubs.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\stubs.cpp > CMakeFiles\velora.dir\src\stubs.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\stubs.cpp > CMakeFiles\velora.dir\src\stubs.cpp.i
 
 CMakeFiles/velora.dir/src/stubs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/stubs.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\stubs.cpp -o CMakeFiles\velora.dir\src\stubs.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\stubs.cpp -o CMakeFiles\velora.dir\src\stubs.cpp.s
 
 CMakeFiles/velora.dir/src/output_json.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/output_json.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/output_json.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/output_json.cpp
+CMakeFiles/velora.dir/src/output_json.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/output_json.cpp
 CMakeFiles/velora.dir/src/output_json.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/velora.dir/src/output_json.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/output_json.cpp.obj -MF CMakeFiles\velora.dir\src\output_json.cpp.obj.d -o CMakeFiles\velora.dir\src\output_json.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\output_json.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/velora.dir/src/output_json.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/output_json.cpp.obj -MF CMakeFiles\velora.dir\src\output_json.cpp.obj.d -o CMakeFiles\velora.dir\src\output_json.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\output_json.cpp
 
 CMakeFiles/velora.dir/src/output_json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/output_json.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\output_json.cpp > CMakeFiles\velora.dir\src\output_json.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\output_json.cpp > CMakeFiles\velora.dir\src\output_json.cpp.i
 
 CMakeFiles/velora.dir/src/output_json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/output_json.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\output_json.cpp -o CMakeFiles\velora.dir\src\output_json.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\output_json.cpp -o CMakeFiles\velora.dir\src\output_json.cpp.s
 
 CMakeFiles/velora.dir/src/file_utils.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/file_utils.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/file_utils.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/file_utils.cpp
+CMakeFiles/velora.dir/src/file_utils.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/file_utils.cpp
 CMakeFiles/velora.dir/src/file_utils.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/velora.dir/src/file_utils.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/file_utils.cpp.obj -MF CMakeFiles\velora.dir\src\file_utils.cpp.obj.d -o CMakeFiles\velora.dir\src\file_utils.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\file_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/velora.dir/src/file_utils.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/file_utils.cpp.obj -MF CMakeFiles\velora.dir\src\file_utils.cpp.obj.d -o CMakeFiles\velora.dir\src\file_utils.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\file_utils.cpp
 
 CMakeFiles/velora.dir/src/file_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/file_utils.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\file_utils.cpp > CMakeFiles\velora.dir\src\file_utils.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\file_utils.cpp > CMakeFiles\velora.dir\src\file_utils.cpp.i
 
 CMakeFiles/velora.dir/src/file_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/file_utils.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\file_utils.cpp -o CMakeFiles\velora.dir\src\file_utils.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\file_utils.cpp -o CMakeFiles\velora.dir\src\file_utils.cpp.s
 
 CMakeFiles/velora.dir/src/json_serialize.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/json_serialize.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/json_serialize.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/json_serialize.cpp
+CMakeFiles/velora.dir/src/json_serialize.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/json_serialize.cpp
 CMakeFiles/velora.dir/src/json_serialize.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/velora.dir/src/json_serialize.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/json_serialize.cpp.obj -MF CMakeFiles\velora.dir\src\json_serialize.cpp.obj.d -o CMakeFiles\velora.dir\src\json_serialize.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\json_serialize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/velora.dir/src/json_serialize.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/json_serialize.cpp.obj -MF CMakeFiles\velora.dir\src\json_serialize.cpp.obj.d -o CMakeFiles\velora.dir\src\json_serialize.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\json_serialize.cpp
 
 CMakeFiles/velora.dir/src/json_serialize.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/json_serialize.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\json_serialize.cpp > CMakeFiles\velora.dir\src\json_serialize.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\json_serialize.cpp > CMakeFiles\velora.dir\src\json_serialize.cpp.i
 
 CMakeFiles/velora.dir/src/json_serialize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/json_serialize.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\json_serialize.cpp -o CMakeFiles\velora.dir\src\json_serialize.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\json_serialize.cpp -o CMakeFiles\velora.dir\src\json_serialize.cpp.s
 
 CMakeFiles/velora.dir/src/alns.cpp.obj: CMakeFiles/velora.dir/flags.make
 CMakeFiles/velora.dir/src/alns.cpp.obj: CMakeFiles/velora.dir/includes_CXX.rsp
-CMakeFiles/velora.dir/src/alns.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velora_split/src/alns.cpp
+CMakeFiles/velora.dir/src/alns.cpp.obj: D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/src/alns.cpp
 CMakeFiles/velora.dir/src/alns.cpp.obj: CMakeFiles/velora.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/velora.dir/src/alns.cpp.obj"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/alns.cpp.obj -MF CMakeFiles\velora.dir\src\alns.cpp.obj.d -o CMakeFiles\velora.dir\src\alns.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velora_split\src\alns.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/velora.dir/src/alns.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/velora.dir/src/alns.cpp.obj -MF CMakeFiles\velora.dir\src\alns.cpp.obj.d -o CMakeFiles\velora.dir\src\alns.cpp.obj -c D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\alns.cpp
 
 CMakeFiles/velora.dir/src/alns.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/velora.dir/src/alns.cpp.i"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velora_split\src\alns.cpp > CMakeFiles\velora.dir\src\alns.cpp.i
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\alns.cpp > CMakeFiles\velora.dir\src\alns.cpp.i
 
 CMakeFiles/velora.dir/src/alns.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/velora.dir/src/alns.cpp.s"
-	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velora_split\src\alns.cpp -o CMakeFiles\velora.dir\src\alns.cpp.s
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\alns.cpp -o CMakeFiles\velora.dir\src\alns.cpp.s
 
 # Object files for target velora
 velora_OBJECTS = \
@@ -285,7 +285,7 @@ velora.exe: CMakeFiles/velora.dir/build.make
 velora.exe: CMakeFiles/velora.dir/linkLibs.rsp
 velora.exe: CMakeFiles/velora.dir/objects1.rsp
 velora.exe: CMakeFiles/velora.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable velora.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable velora.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\velora.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -297,6 +297,6 @@ CMakeFiles/velora.dir/clean:
 .PHONY : CMakeFiles/velora.dir/clean
 
 CMakeFiles/velora.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\winter_2k25\kriti_26\opti\code\velora_split D:\winter_2k25\kriti_26\opti\code\velora_split D:\winter_2k25\kriti_26\opti\code\velora_split\build D:\winter_2k25\kriti_26\opti\code\velora_split\build D:\winter_2k25\kriti_26\opti\code\velora_split\build\CMakeFiles\velora.dir\DependInfo.cmake "--color=$(COLOR)" velora
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\build\CMakeFiles\velora.dir\DependInfo.cmake "--color=$(COLOR)" velora
 .PHONY : CMakeFiles/velora.dir/depend
 

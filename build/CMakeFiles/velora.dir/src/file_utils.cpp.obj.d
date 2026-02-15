@@ -1,6 +1,6 @@
 CMakeFiles/velora.dir/src/file_utils.cpp.obj: \
- D:\winter_2k25\kriti_26\opti\code\velora_split\src\file_utils.cpp \
- D:/winter_2k25/kriti_26/opti/code/velora_split/include/file_utils.h \
+ D:\winter_2k25\kriti_26\opti\code\velOOOORa\optimization\src\file_utils.cpp \
+ D:/winter_2k25/kriti_26/opti/code/velOOOORa/optimization/include/file_utils.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\c++config.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\mingw32\bits\os_defines.h \
